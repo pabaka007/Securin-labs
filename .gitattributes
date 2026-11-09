@@ -1,2 +1,5 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+
+# Count this repo as Java, not HTML (templates are UI only)
+src/main/resources/templates/** linguist-detectable=false
